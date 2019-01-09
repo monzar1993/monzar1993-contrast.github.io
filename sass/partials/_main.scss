@@ -1,0 +1,130 @@
+#main {
+  @include header-wh-pr-oh;
+  background: #e6f1fa;
+  background-image: url('../images/cube-4.png'),
+                    url('../images/cube-5.png'),
+                    url('../images/cube-6.png'),
+                    url('../images/cube-7.png');
+  background-repeat: no-repeat;
+  background-position:  129px -310px,
+                        597px -154px,
+                        431px -14px,
+                        562px 246px;
+  background-blend-mode: difference;
+  img {
+    position: absolute;
+    top: 92px;
+    left: 482px;
+  }
+  ul.unstyled {
+    padding-bottom: 45px;
+    li {
+    list-style-type: none;
+    font-family: 'Brutal Type';
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 18px;
+    ul.inside-styled {
+      list-style-type: disc;
+      list-style-position: inside;
+      padding-left: 16px;
+      padding-top: 36px;
+      padding-bottom: 32px;
+      li {
+        list-style-type: disc;
+        color: #414f7e;
+        padding-top: 0;
+        span {
+          color: #000;
+        }
+      }
+    }
+    }
+  }
+  ul.unstyled li:first-child {
+    padding-top: 45px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+  #main {
+    background-position: 29px -310px, 497px -154px, 331px -14px, 462px 246px;
+
+    img {
+      left: 382px;
+    }
+  }
+}
+@media (min-width: 1360px) and (max-width: 1439px) {
+  #main {
+    background-position: -71px -310px, 397px -154px, 231px -14px, 362px 246px;
+
+    img {
+      left: 282px;
+    }
+  }
+}
+@media (min-width: 1280px) and (max-width: 1359px) {
+  #main {
+   background-position: -171px -310px, 297px -154px, 131px -14px, 262px 246px;
+
+   img {
+     left: 182px;
+   }
+ }
+}
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  #main {
+    background-position: -290px -310px, 178px -154px, 11px -14px, 143px 246px;
+
+    img {
+      position: relative;
+      top:0;
+      left: 0;
+      display: block;
+      margin: 133px auto 0;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #main {
+    background-position: -409px -310px, 59px -154px, -108px -14px, 24px 246px;
+
+    img {
+      position: relative;
+      top:0;
+      left: 0;
+      display: block;
+      margin: 114px auto 0;
+    }
+  }
+}
+@media (min-width: 414px) and (max-width: 479px) {
+  #main {
+    background-position: -409px -310px, 59px -154px, -108px -14px, 24px 246px;
+
+    img {
+      position: relative;
+      top:0;
+      left: 0;
+      display: block;
+      margin: 114px auto 0;
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 413px) {
+  #main {
+    background-position: -409px -310px, 59px -154px, -108px -14px, 24px 246px;
+
+    img {
+      position: relative;
+      top:0;
+      left: 0;
+      display: block;
+      margin: 114px auto 0;
+    }
+  }
+}

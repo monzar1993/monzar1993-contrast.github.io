@@ -1,0 +1,427 @@
+#price {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(to top, #414f7e 25%, #fff 25%, #fff 75%, #414f7e 75%);
+
+  .price-part1 {
+    @include flex-price-part;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url('../images/price-part1.png');
+    width: 711px;
+    height: 479px;
+    margin: 30px 15px 15px;
+
+    span {
+      font-family: 'Brutal Type';
+      font-weight: 500;
+      font-size: 30px;
+      color: #414f7e;
+      background: rgba(255, 255, 255, 0.4);
+      padding: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .price-part2 {
+    @include flex-price-part;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url('../images/price-part2.png');
+    width: 712px;
+    height: 479px;
+    margin: 30px 15px 15px;
+
+    span {
+      font-family: 'Brutal Type';
+      font-weight: 500;
+      font-size: 30px;
+      color: #414f7e;
+      background: rgba(255, 255, 255, 0.4);
+      padding: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.05)
+    }
+  }
+  .price-part3 {
+    @include flex-price-part;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url('../images/price-part3.png');
+    width: 809px;
+    height: 479px;
+    margin: 15px 15px 30px;
+
+    span {
+      font-family: 'Brutal Type';
+      font-weight: 500;
+      font-size: 30px;
+      color: #414f7e;
+      background: rgba(255, 255, 255, 0.4);
+      padding: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.05)
+    }
+  }
+  .price-part4 {
+    @include flex-price-part;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url('../images/price-part4.png');
+    width: 615px;
+    height: 479px;
+    margin: 15px 15px 30px;
+
+    span {
+      font-family: 'Brutal Type';
+      font-weight: 500;
+      font-size: 30px;
+      color: #414f7e;
+      background: rgba(255, 255, 255, 0.4);
+      padding: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.05)
+    }
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+  #price {
+    .price-part1 {
+      width: 666px;
+    }
+    .price-part2 {
+      width: 640px;
+    }
+    .price-part3 {
+      width: 709px;
+    }
+    .price-part4 {
+      width: 595px;
+    }
+  }
+}
+@media (min-width: 1360px) and (max-width: 1439px) {
+  #price {
+    .price-part1 {
+      width: 660px;
+    }
+    .price-part2 {
+      width: 640px;
+    }
+    .price-part3 {
+      width: 704px;
+    }
+    .price-part4 {
+      width: 595px;
+    }
+  }
+}
+@media (min-width: 1280px) and (max-width: 1359px) {
+  #price {
+    .price-part1 {
+      width: 620px;
+    }
+    .price-part2 {
+      width: 600px;
+    }
+    .price-part3 {
+      width: 665px;
+    }
+    .price-part4 {
+      width: 555px;
+    }
+  }
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #price {
+    .price-part1 {
+      width: 711px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}
+@media (min-width: 896px) and (max-width: 1023px) {
+  #price {
+    .price-part1 {
+      width: 711px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}
+@media (min-width: 812px) and (max-width: 895px) {
+  #price {
+    .price-part1 {
+      width: 711px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 811px) {
+  #price {
+    .price-part1 {
+      width: 711px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 711px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #price {
+    .price-part1 {
+      width: 550px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 550px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 550px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 550px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 414px) and (max-width: 479px) {
+  #price {
+    .price-part1 {
+      width: 400px;
+      height: 400px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 400px;
+      height: 400px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 400px;
+      height: 400px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 400px;
+      height: 400px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 413px) {
+  #price {
+    .price-part1 {
+      width: 300px;
+      height: 300px;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part2 {
+      width: 300px;
+      height: 300px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part3 {
+      width: 300px;
+      height: 300px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+    .price-part4 {
+      width: 300px;
+      height: 300px;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      span {
+      margin-right: 36px;
+      }
+    }
+  }
+}

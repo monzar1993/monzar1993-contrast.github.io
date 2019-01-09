@@ -1,0 +1,26 @@
+@mixin header-wh-pr-oh {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+@mixin menu-li {
+	cursor: pointer;
+	font-family: 'brutal_typelight';
+	font-size: 18px;
+	margin-top: 158px;
+
+	img {
+		display: block;
+		padding-bottom: 22px;
+	}
+}
+
+@mixin flex-price-part {
+	display: flex;
+	position: relative;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	transition: 0.5s;
+}
